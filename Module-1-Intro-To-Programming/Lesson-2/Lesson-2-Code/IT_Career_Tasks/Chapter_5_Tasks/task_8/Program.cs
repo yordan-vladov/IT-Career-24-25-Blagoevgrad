@@ -10,17 +10,25 @@ public class Program
         var a = int.Parse(Console.ReadLine());
         var b = int.Parse(Console.ReadLine());
         var c = int.Parse(Console.ReadLine());
-        var max = a;
-        if (max < b)
+        var equals = true;
+
+        if (a != b)
         {
-            max = b;
+            equals = false;
         }
 
-        if (max < c)
+        if (a != c)
         {
-            max = c;
+            equals = false;
         }
 
-        Console.WriteLine(max);
+        if (equals)
+        {
+            Console.WriteLine("yes");
+        }
+        else
+        {
+            Console.WriteLine("no");
+        }
     }
 }
