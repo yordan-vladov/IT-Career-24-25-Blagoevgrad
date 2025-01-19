@@ -1,0 +1,15 @@
+/home/yordan/Projects/School/IT_Kariera/IT-Career-24-25-Blagoevgrad/Module-2-Programming/Lesson-1/Tasks/Lesson-1-Code/IT-Career-Tasks/Chapter-5-Tasks/task-4/bin/Debug/net8.0/task-4
+/home/yordan/Projects/School/IT_Kariera/IT-Career-24-25-Blagoevgrad/Module-2-Programming/Lesson-1/Tasks/Lesson-1-Code/IT-Career-Tasks/Chapter-5-Tasks/task-4/bin/Debug/net8.0/task-4.deps.json
+/home/yordan/Projects/School/IT_Kariera/IT-Career-24-25-Blagoevgrad/Module-2-Programming/Lesson-1/Tasks/Lesson-1-Code/IT-Career-Tasks/Chapter-5-Tasks/task-4/bin/Debug/net8.0/task-4.runtimeconfig.json
+/home/yordan/Projects/School/IT_Kariera/IT-Career-24-25-Blagoevgrad/Module-2-Programming/Lesson-1/Tasks/Lesson-1-Code/IT-Career-Tasks/Chapter-5-Tasks/task-4/bin/Debug/net8.0/task-4.dll
+/home/yordan/Projects/School/IT_Kariera/IT-Career-24-25-Blagoevgrad/Module-2-Programming/Lesson-1/Tasks/Lesson-1-Code/IT-Career-Tasks/Chapter-5-Tasks/task-4/bin/Debug/net8.0/task-4.pdb
+/home/yordan/Projects/School/IT_Kariera/IT-Career-24-25-Blagoevgrad/Module-2-Programming/Lesson-1/Tasks/Lesson-1-Code/IT-Career-Tasks/Chapter-5-Tasks/task-4/obj/Debug/net8.0/task-4.GeneratedMSBuildEditorConfig.editorconfig
+/home/yordan/Projects/School/IT_Kariera/IT-Career-24-25-Blagoevgrad/Module-2-Programming/Lesson-1/Tasks/Lesson-1-Code/IT-Career-Tasks/Chapter-5-Tasks/task-4/obj/Debug/net8.0/task-4.AssemblyInfoInputs.cache
+/home/yordan/Projects/School/IT_Kariera/IT-Career-24-25-Blagoevgrad/Module-2-Programming/Lesson-1/Tasks/Lesson-1-Code/IT-Career-Tasks/Chapter-5-Tasks/task-4/obj/Debug/net8.0/task-4.AssemblyInfo.cs
+/home/yordan/Projects/School/IT_Kariera/IT-Career-24-25-Blagoevgrad/Module-2-Programming/Lesson-1/Tasks/Lesson-1-Code/IT-Career-Tasks/Chapter-5-Tasks/task-4/obj/Debug/net8.0/task-4.csproj.CoreCompileInputs.cache
+/home/yordan/Projects/School/IT_Kariera/IT-Career-24-25-Blagoevgrad/Module-2-Programming/Lesson-1/Tasks/Lesson-1-Code/IT-Career-Tasks/Chapter-5-Tasks/task-4/obj/Debug/net8.0/task-4.sourcelink.json
+/home/yordan/Projects/School/IT_Kariera/IT-Career-24-25-Blagoevgrad/Module-2-Programming/Lesson-1/Tasks/Lesson-1-Code/IT-Career-Tasks/Chapter-5-Tasks/task-4/obj/Debug/net8.0/task-4.dll
+/home/yordan/Projects/School/IT_Kariera/IT-Career-24-25-Blagoevgrad/Module-2-Programming/Lesson-1/Tasks/Lesson-1-Code/IT-Career-Tasks/Chapter-5-Tasks/task-4/obj/Debug/net8.0/refint/task-4.dll
+/home/yordan/Projects/School/IT_Kariera/IT-Career-24-25-Blagoevgrad/Module-2-Programming/Lesson-1/Tasks/Lesson-1-Code/IT-Career-Tasks/Chapter-5-Tasks/task-4/obj/Debug/net8.0/task-4.pdb
+/home/yordan/Projects/School/IT_Kariera/IT-Career-24-25-Blagoevgrad/Module-2-Programming/Lesson-1/Tasks/Lesson-1-Code/IT-Career-Tasks/Chapter-5-Tasks/task-4/obj/Debug/net8.0/task-4.genruntimeconfig.cache
+/home/yordan/Projects/School/IT_Kariera/IT-Career-24-25-Blagoevgrad/Module-2-Programming/Lesson-1/Tasks/Lesson-1-Code/IT-Career-Tasks/Chapter-5-Tasks/task-4/obj/Debug/net8.0/ref/task-4.dll
