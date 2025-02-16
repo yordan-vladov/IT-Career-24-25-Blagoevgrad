@@ -1,33 +1,36 @@
-var input = Console.ReadLine();
 
-var userLogs = new Dictionary<string, Dictionary<string, int>>();
+var message = Console.ReadLine();
+var userMessages = new Dictionary<string, Dictionary<string, int>>();
 
-while (!input.Equals("end"))
+
+while (message != "end")
 {
-    var inputArgs = input.Split(' ');
-    var ipAddress = inputArgs[0][3..];
-    var user = inputArgs[2][5..];
+    var messageArgs = message.Split();
+    var ipAddress = messageArgs[0][3..];
+    var user = messageArgs[2][5..];
 
-    if (!userLogs.ContainsKey(user))
-        userLogs[user] = new Dictionary<string, int>();
-
-    if (!userLogs[user].ContainsKey(ipAddress))
-        userLogs[user][ipAddress] = 0;
-
-    userLogs[user][ipAddress] += 1;
-
-    input = Console.ReadLine();
+    if (userMessages.ContainsKey(user))
+    {
+        if (userMessages[user].ContainsKey(ipAddress))
+            userMessages[user][ipAddress] += 1;
+        else
+            userMessages[user][ipAddress] = 1;
+    }
+    else
+    {
+        userMessages[user] = new Dictionary<string, int>();
+        userMessages[user][ipAddress] = 1;
+    }
+    message = Console.ReadLine();
 }
 
-foreach (var userLog in userLogs)
+
+foreach (var userMessage in userMessages)
 {
-    var user = userLog.Key;
-    var logs = userLog.Value;
+    var user = userMessage.Key;
+    var messages = userMessage.Value;
 
-    Console.WriteLine(user);
-
-    foreach (var log in logs)
-    {
-        Console.WriteLine($"{log.Key} => {log.Value}.");
-    }
+    var messagesStr = String.Join(", ", messages.Select(m => $"{m.Key} => {m.Value}").ToArray());
+    Console.WriteLine($"{user}:");
+    Console.WriteLine($"{messagesStr}.");
 }

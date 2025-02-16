@@ -9,13 +9,10 @@ while (!virus.Equals("end"))
     var virusPower = virus.ToCharArray().Select(ch => (int)ch).Sum() / 3;
     var virusTime = virusPower * virus.Length;
     if (viruses.Contains(virus))
-    {
         virusTime /= 3;
-    }
     else
-    {
         viruses.Add(virus);
-    }
+
     var minutes = virusTime / 60;
     var seconds = virusTime % 60;
 
@@ -32,9 +29,8 @@ while (!virus.Equals("end"))
 
     immuneSystem = (int)(immuneSystem * 1.2);
     if (immuneSystem > maxHealth)
-    {
         immuneSystem = maxHealth;
-    }
+
     virus = Console.ReadLine();
 }
 

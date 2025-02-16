@@ -50,7 +50,7 @@ foreach (var userScore in userScores)
             return suitPower * valuePower;
         };
 
-    var cardSum = userScore.Value.Distinct().Select(card => GetCardScore(card)).Sum();
+    var cardSum = userScore.Value.Distinct().Select(GetCardScore).Sum();
 
     Console.WriteLine($"{userScore.Key}: {cardSum}");
 }

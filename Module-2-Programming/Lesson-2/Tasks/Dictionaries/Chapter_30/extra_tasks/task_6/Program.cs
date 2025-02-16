@@ -1,6 +1,5 @@
 var countries = new Dictionary<string, Dictionary<string, int>>();
 
-
 var input = Console.ReadLine();
 
 while (!input.Equals("report"))

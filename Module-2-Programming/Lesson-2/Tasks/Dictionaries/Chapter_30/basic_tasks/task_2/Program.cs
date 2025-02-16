@@ -5,15 +5,5 @@ var evenNumbers = Console.ReadLine()
 
 var avg = evenNumbers.Average();
 
-var changeNumber = (int num) =>
-{
-    if (num <= avg)
-    {
-        return num - 1;
-    }
-
-    return num + 1;
-};
-
-var oddNumbers = evenNumbers.Select(changeNumber).ToArray();
+var oddNumbers = evenNumbers.Select(num => num <= avg ? num - 1 : num + 1).ToArray();
 Console.WriteLine(String.Join(" ", oddNumbers));
